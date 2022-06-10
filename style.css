@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,500&display=swap');
+
+body {
+    margin: 0px;
+}
+.header {
+    background: #007765;
+    height: 84px;
+    width: 100%;
+    position: fixed;
+}
+.logo {
+    position: absolute;
+    top: 2px;
+}
+.menu th {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+.menu {
+    position: absolute;
+    right: 55px;
+    bottom: 26px;
+}
+.block1 {
+    padding-top: 244px;
+    padding-bottom: 160px;
+    background: url(img/image-block1.svg);
+    background-size: cover;
+}
+.block1 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    color: white;
+    text-align: center;
+}
+.block2 {
+    background: #EEEEEE;
+    padding: 48px 56px 92px;
+}
+.block2 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+}
+.block2 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+}
+b {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+.block3 {
+    padding-top: 128px;
+    padding-bottom: 128px;
+    padding-left: 163px;
+    padding-right: 163px;
+    background: url(img/image-block3.svg);
+    background-size: cover;
+}
+.block3 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+.block4 {
+    background: white;
+    padding: 48px 56px 92px;
+}
+.block4 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+}
+.block4 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+}
+.pic {
+    float: left;
+    margin-right: 32px;
+}
+.block5 {
+    background: #EEEEEE;
+    padding: 48px 56px 92px;
+}
+.block5 h1 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+}
+.block5 p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    color: black;
+    text-align: left;
+}
+.member-team h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #007765;
+    text-align: center;
+    line-height: 8px;
+}
+.member-team p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 8px;
+    color: black;
+    text-align: center;
+}
+.member-team {
+    display: inline-block;
+    text-align: center;
+    width: 384px;
+    padding: 48px;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color:#4EC3B2;
+    text-decoration: underline;
+}
+.footer {
+    background: #333333;
+    padding: 64px 340px;
+}
+.footer p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+}
